@@ -1,0 +1,60 @@
+Apple
+Asparagus
+Bacon
+Banana
+Beef ground
+Beef hamburger
+Beef roast
+Beef steak
+Bell peppers
+Blackberry
+Blueberry
+Broccoli
+Cabbage
+Cantalope
+Carrot
+Caulifower
+Celery
+Cheese
+Cherry
+Chicken breast
+Chicken ground
+Chicken leg
+Chicken whole
+Cilantro
+Collard greens
+Corn
+Eggs
+Fresh fish
+Garlic
+Ginger
+Grapes
+Ham
+Japaleno
+Kale
+Kefir
+Lemon
+Lettuce
+Milk
+Mushroom
+Olive oil
+Onion
+Orange
+Parsley
+Pea
+Peach
+Pear
+Pineapple
+Plum
+Pork chop
+Potato
+Raspberry
+Spinach
+Squash
+Strawberry
+Sweet potato
+Tangerine
+Tomato
+Watermelon
+Yogurt
+Zucchini

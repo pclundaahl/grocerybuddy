@@ -1,0 +1,6 @@
+Apple,5,5,fruit,Kevin
+Orange,6,6,fruit,Carlo
+Banana,4,4,fruit,Raly
+Tomato,4,4,fruit,Toni
+Pear,5,5,fruit,Patrick
+Milk,7,7,dairy,Ben Yu
