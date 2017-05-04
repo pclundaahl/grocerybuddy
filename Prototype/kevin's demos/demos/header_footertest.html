@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grocery Buddy</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+.navbar {
+	background-color: #0DCC88;
+}
+.navbar-toggle{
+	background-color: white;
+}
+.nav.navbar-nav li a {
+    color: white;
+    text-shadow: 1px 1px #818181;
+}
+.nav.navbar-nav li a:hover {
+    color: #E1E1E1;
+}
+.botnav{
+	background-color: #FFB139;
+}
+/* CSS FOR STICKY FOOTER */
+html, body{
+	height: 100%;
+}
+body{
+	display: table;
+	width: 100%;
+}
+.page-row{
+	display: table-row;
+	height: 1px;
+}
+.page-row-expanded{
+	height: 100%;
+}
+</style>
+</head>
+<body>
+
+
+<header class="page-row">
+<nav class="navbar navbar-default navbar-fixed-top"">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<span class="navbar-brand" style="padding-top: 2px;">
+				<img src="carrot.png" alt="Grocery Buddy" style="width: 40px; height: 47px;">
+			</span>
+			<span class="navbar-brand" style="color: white;">GROCERY BUDDY</span>
+			<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainnav">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<button class="btn btn-danger pull-right" type="button" style="margin-top: 7px; margin-right: 10px;"><span class="badge">4</span></button>
+		</div>
+		
+		<div class="collapse navbar-collapse" id="mainnav">
+			<ul class="nav navbar-nav">
+			    <li><a href="#">Grocery Lists</a></li>
+			    <li><a href="#">New List</a></li>
+			    <li><a href="#">My Fridge</a></li>
+			    <li><a href="#">Settings</a></li>
+			    <li><a href="#">Logout</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+
+<main class="page-row page-row-expanded">
+	<div class="container-fluid col-sm-12">
+		<div class="page-header" style="margin-top: 60px;">
+			<h2>This is the body content</h2>
+			<p>Application content goes here.</p>
+		</div>
+	</div>
+</main>
+
+<footer class="page-row botnav">
+	<div class="container">
+		<img src="ECODERSlogo.png" alt="ECOders logo" class="pull-right" style="width:72px; height: 60px; padding-top: 5px; padding-bottom: 5px">
+		<p class="text-muted credit" style="padding-top: 19px;">Copyright &copy; ECOders 2017.</p>
+	</div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
