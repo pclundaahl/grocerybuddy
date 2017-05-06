@@ -1,0 +1,31 @@
+ANGULAR2 ANALYSIS
+*****************
+
+COMPATIBILITY
+*************
+   BOOTSTRAP SUPPORT
+      Valor Software's has a library called Angular Bootstrap. They seem to
+      support all core Bootstrap components. Using it seems to be a simple case
+      of replacing the jQuery imports with the appropriate Angular ones. I
+      showed the example code for several components to Kevin and he said it
+      looked very similar; there likely won't be any issue porting code over
+      to this library.
+      http://valor-software.com/ngx-bootstrap/
+
+
+   FIREBASE SUPPORT
+      AngularFire2 library is "the official library for Firebase and Angular2"
+      Initially scoping out the page looks like it won't be any problem.
+      https://github.com/angular/angularfire2
+
+   GESTURES
+      HammerJS is the top search result I came across. It seems super
+      responsive. It supports all your standards, and the demo widget they have
+      on their main github page is definitely convincing. Initial browsing of
+      Google indicates that it works with Angular2, so I'd say we're good to go
+      on that. http://hammerjs.github.io/
+
+   DRAG-TO-REORDER
+      It's made by Valor Software (the same guys who did the Angular Bootstrap
+      library), so chances are it's going to work smoothly. Also, it's called
+      "Dragula." 'nuff said. https://github.com/valor-software/ng2-dragula

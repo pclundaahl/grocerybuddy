@@ -1,0 +1,5 @@
+GESTURES
+========
+- Double-Tap to Rename
+- Drag Left/Right to Delete
+- Hold & Drag to Reorder

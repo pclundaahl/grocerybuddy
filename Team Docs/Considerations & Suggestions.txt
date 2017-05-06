@@ -1,0 +1,10 @@
+CONSIDERATIONS / SUGGESTIONS
+============================
+
+- Extra validation (such as Captcha)
+- Undo feature
+- On LIST: Group checked / unchecked items together.
+- Alter nav button color.
+- Look at how smart fridges handle the fridge management.
+- Some layouts are a bit busy (not specific). Should spend time seeing how minimal we can get each page.
+- Double-tap is a weird gesture for options. Perhaps consider click-and-hold or dot-dot-dot icon.
