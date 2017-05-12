@@ -1,13 +1,38 @@
-		
+/*
+JavaScript for password validation and confirm password.
+
+Requires:
+	-[id]_0 and [id]_1 ids for password and confirm password divs
+*/
+
+/*
+Password must contain:
+	-Upper case
+	-Lower case
+	-Numbers
+	-Non-alpha numeric
+*/		
 function testPasswordValid(id) {
+	var valid = false;
 	var userPassword = document.getElementById(id).value;
 		
-	return (userPassword.length > 0);
+		var hasUpperCase = /[A-Z]/.test(userPassword);
+		var hasLowerCase = /[a-z]/.test(userPassword);
+		var hasNumbers = /\d/.test(userPassword);
+		var hasNonalphas = /\W/.test(userPassword);
+		
+		if (hasUpperCase + hasLowerCase + hasNumbers + hasNonalphas == 4)
+			valid=true;
+		
+	return (valid);
 }
 
 function warnPasswordInvalid(id) {
-	if(!testPasswordValid(id))
-		document.getElementById('passworderror').innerHTML="<br>Please provide a password";
+	document.getElementById('passworderror').innerHTML="";
+	if(!testPasswordValid(id)) {
+		document.getElementById('passworderror').innerHTML="<br>Must contain at least one uppercase and lower case letter as well as a number and a special character (ie. $, #, !, %)";
+		document.getElementById(id).value = ""
+	}
 }
 
 function testConfirmPasswordValid(id, acceptBlank) {
@@ -24,6 +49,7 @@ function testConfirmPasswordValid(id, acceptBlank) {
 }
 
 function warnConfirmPasswordInvalid(id, acceptBlank) {
+	document.getElementById('confirmpassworderror').innerHTML="";
 	if(!testConfirmPasswordValid(id, acceptBlank)) {
 		document.getElementById('confirmpassworderror').innerHTML="<br>Your password must match the one above";
 		document.getElementById(id+'_1').value = "";
